@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 28, 2017, 10:33:03 PM
+    Author     : tedis
+*/
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.mynavbar {
+    width: 700px;
+    background-color: red;
+    border: 0;
+}
+
+.nav-div {
+    border-style: solid;
+    /*border-color: #1874CD;*/
+    /*border-width: 15px;*/
+    border-width: 0;
+    background-color: #1874CD;
+}
+
+.navbar-nav {
+    font-size: 25px;
+}
+
+.styleFontOne {
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.styleFontTwo {
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.styleFontThree {
+    font-family: 'Muli', sans-serif;
+}

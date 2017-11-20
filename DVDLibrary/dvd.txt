@@ -1,0 +1,7 @@
+Superman::2000::pg 13::universal::universal::awesome
+Wonder Woman::2002::pg 13::Ted moso::universal::better than what i expected
+Batman::2001::pg 13::ted moso::universal::awesome too
+Doctor Strange::2016::pg 13::Peter Moso::Marvel::Whoa!
+Flash::2003::pg 13::ted moso::Warner bros::Was amazing!
+Green Lantern::2004::pg 13::Ted Moso::universal::He's very green
+Hulk::2007::pg 13::Peter Moso::Marvel::Why Green? Does the color have representation to how Hulk came to be?

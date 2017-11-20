@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vending Machine</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <style>
+        .col-md-4 {
+            padding: 1cm;
+        }
+
+        #item {
+            padding: 1cm;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-center">
+            <h1>Vending Machine</h1>
+        </div>
+        <hr/>
+        <div class="col-md-8">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th width="5%"></th>
+                        <th width="25%"></th>
+                        <th width="5%"></th>
+                        <th width="25%"></th>
+                        <th width="5%"></th>
+                        <th width="25%"></th>
+                    </tr>
+                </thead>
+
+                <tbody id="content"></tbody>
+            </table>
+        </div>
+        <div class="col-md-offset-1 col-md-3">
+            <div>
+                <form id="add-money-form" class="text-center" role="form">
+                    <div class="form-group">
+                        <label><h3>Total $ in</h3></label><br>
+                        <input type="text" id="money-in" class="form-control text-center" readonly /><br>
+
+                        <div class="form-group">
+                            <button type="button" id="add-dollar" class="btn" onclick="addDollar()">Add Dollar</button>
+                            <button type="button" id="add-quarter" class="btn" onclick="addQuarter()">Add Quarter</button>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="button" id="add-dime" class="btn" onclick="addDime()">Add Dime</button>
+                            <button type="button" id="add-nickel" class="btn" onclick="addNickel()">Add Nickel</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <hr style="border: 1px solid black">
+            <div>
+                <form id="purchase-form" class="text-center" role="form">
+                    <div class="form-group">
+                        <label><h3>Messages</h3></label><br>
+                        <input id="general-message" class="text-center" style="font-size: 20px;" readonly/><br>
+                        <label for="item-input"><h3>Item:</h3></label>
+                        <input type="text" id="item-input" class="text-center" size="5" readonly/><br>
+
+                        <div class="form-group">
+                            <button type="button" id="make-purchase" class="btn" onclick="purchase()">Make Purchase</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <hr style="border: 1px solid black">
+            <div>
+                <form id="change-form" class="text-center" role="form">
+                    <div class="form-group">
+                        <label><h3>Change</h3></label><br>
+                        <input type="text" id="change-message" readonly/><br>
+                        <br>
+                        <div class="form-group">
+                            <button type="button" id="change-return" class="btn" onclick="returnChange()">Change Return</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/home.js"></script>
+</body>
+
+</html>

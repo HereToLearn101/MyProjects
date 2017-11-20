@@ -1,0 +1,24 @@
+1,BB-8,PW,10.85,Phlosoium,90.0,82.1,6.0,7389.0,540.0,872.19,8801.19
+2,Quark,HI,6.0,Low-density Dynesium,35.0,72.03,5.0,2521.05,175.0,161.76,2857.81
+3,Data,NH,18.0,Modular Inertial Replication Scanner,58.0,33.0,3.1,1914.0,179.8,376.88,2470.68
+4,Rory Williams,GU,23.2,Metallomite,276.0,32.0,4.0,8832.0,1104.0,2285.28,12221.28
+5,Worf,AS,8.0,Metallomite,351.0,32.0,4.0,11232.0,1404.0,1010.88,13646.88
+6,C-3PO,IN,23.0,Quantum Replication System,317.0,14.0,3.35,4438.0,1061.95,1264.99,6764.94
+7,B'Elanna Torres,VT,15.25,Quantum Replication System,214.0,14.0,3.35,2996.0,716.9,556.94,4269.84
+8,Daniel Jackson,MO,5.0,Nonus,367.0,14.11,7.29,5178.37,2675.43,392.69,8246.49
+9,Odo,MT,21.0,Exotic Halosium,241.0,81.0,7.0,19521.0,1687.0,4453.68,25661.68
+10,Lando Calrissian,IN,23.0,Dynamic Resonance Buffer,176.0,40.0,4.3,7040.0,756.8,1793.26,9590.06
+11,R2-D2,MT,21.0,Solidified Monogen,107.0,61.0,4.0,6527.0,428.0,1460.55,8415.55
+12,Darth Sidious,GU,23.2,Albedonite,131.0,70.0,7.0,9170.0,917.0,2320.01,12407.01
+13,James T. Kirk,MI,5.47,Modular Transition Modulator,225.0,46.0,4.26,10350.0,958.5,565.42,11873.92
+14,Jonas Quinn,MN,0.0,Non-refractive Nonite,155.0,41.0,4.14,6355.0,641.7,0.0,6996.7
+15,C-3PO,MD,12.0,Vanadogen,167.0,59.0,1.33,9853.0,222.11,1209.01,11284.12
+16,Neelix,PW,10.85,Opaque Osmesium,257.0,74.82,7.15,19228.74,1837.55,2317.29,23383.58
+17,Mazer Rackham,MD,12.0,Bioneural Degeneration Sensor,199.0,44.0,0.0,8756.0,0.0,1050.72,9806.72
+18,C-3PO,PW,10.85,Primary Flux Matrix,146.0,2.0,2.99,292.0,436.54,80.14,808.68
+19,Q,NH,18.0,Morphon,255.0,129.34,322.0,32981.7,82110.0,20716.51,135808.21
+20,BB-8,GU,23.2,Modular Inertial Replication Scanner,257.0,33.0,3.1,8481.0,796.7,2133.87,11411.57
+21,Wesley Crusher,AS,8.0,Quantum Replication System,217.0,14.0,3.35,3038.0,726.95,301.2,4066.15
+22,K-9,NH,18.0,Positive Hermin,220.0,62.53,3.5,13756.6,770.0,2614.79,17141.39
+23,Rory Williams,PW,10.85,Modular Inertial Replication Scanner,80.0,33.0,3.1,2640.0,248.0,317.68,3205.68
+24,William Riker,IN,23.0,Phlosoium,226.0,82.1,6.0,18554.6,1356.0,4579.44,24490.04

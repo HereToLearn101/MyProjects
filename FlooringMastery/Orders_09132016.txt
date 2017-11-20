@@ -1,0 +1,36 @@
+86,Art3mis,IN,23.0,Non-flammable Lunaril,35.0,79.96,8.0,2798.6,280.0,708.08,3786.68
+87,River Song,HI,6.0,Primary Flux Matrix,244.0,2.0,2.99,488.0,729.56,73.05,1290.61
+88,Jabba the Hutt,HI,6.0,Bioneural Degeneration Sensor,100.0,44.0,0.0,4400.0,0.0,264.0,4664.0
+89,Jabba the Hutt,NH,18.0,Vanadogen,122.0,59.0,1.33,7198.0,162.26,1324.85,8685.11
+90,Darth Maul,PW,10.85,Positive Phorus,298.0,5.64,5.0,1680.72,1490.0,348.78,3519.5
+91,Jango Fett,NH,18.0,Phlosoium,90.0,82.1,6.0,7389.0,540.0,1427.22,9356.22
+92,Wade Watts,MD,12.0,Quantum Replication System,246.0,14.0,3.35,3444.0,824.1,512.17,4780.27
+93,Pavel Chekov,IN,23.0,Non-flammable Lunaril,307.0,79.96,8.0,24547.72,2456.0,6210.86,33214.58
+94,Jean-Luc Picard,PR,14.0,Albedonite,147.0,70.0,7.0,10290.0,1029.0,1584.66,12903.66
+95,Qui-Gon Jinn,PR,14.0,Quantum Replication System,102.0,14.0,3.35,1428.0,341.7,247.76,2017.46
+96,B'Elanna Torres,PR,14.0,Positive Hermin,234.0,62.53,3.5,14632.02,819.0,2163.14,17614.16
+97,Rae Sloane,VT,15.25,Albedonite,212.0,70.0,7.0,14840.0,1484.0,2448.6,18772.6
+98,Doctor Who,HI,6.0,Primary Flux Matrix,210.0,2.0,2.99,420.0,627.9,62.87,1110.77
+99,Geordi La Forge,MO,5.0,Flammable Leptcite,159.0,45.65,5.88,7258.35,934.92,409.66,8602.93
+100,Jack O'Neill,MI,5.47,Modular Transition Modulator,50.0,46.0,4.26,2300.0,213.0,125.65,2638.65
+101,Darth Vader,HI,6.0,Modular Inertial Replication Scanner,277.0,33.0,3.1,9141.0,858.7,599.98,10599.68
+102,Jonas Quinn,MO,5.0,Albedonite,331.0,70.0,7.0,23170.0,2317.0,1274.35,26761.35
+103,Pavel Chekov,HI,6.0,Quantum Replication System,313.0,14.0,3.35,4382.0,1048.55,325.83,5756.38
+104,Lando Calrissian,HI,6.0,Albedonite,199.0,70.0,7.0,13930.0,1393.0,919.38,16242.38
+105,Darth Maul,MO,5.0,Positive Hermin,88.0,62.53,3.5,5502.64,308.0,290.53,6101.17
+106,Data,PW,10.85,Flammable Leptcite,194.0,45.65,5.88,8856.1,1140.72,1099.65,11096.47
+107,Admiral Gial Ackbar,MT,21.0,Lithite,270.0,5.76,2.76,1555.2,745.2,483.08,2783.48
+108,BB-8,VI,15.74,Destresium,91.0,66.0,5.0,6006.0,455.0,1033.76,7494.76
+109,Jean-Luc Picard,MI,5.47,Metallomite,333.0,32.0,4.0,10656.0,1332.0,599.4,12587.4
+110,River Song,MO,5.0,Metallomite,57.0,32.0,4.0,1824.0,228.0,102.6,2154.6
+111,Tasha Yar,MI,5.47,Metallomite,169.0,32.0,4.0,5408.0,676.0,304.2,6388.2
+112,Luke Skywalker,AS,8.0,Quantum Replication System,222.0,14.0,3.35,3108.0,743.7,308.14,4159.84
+113,Q,PR,14.0,Opaque Osmesium,222.0,74.82,7.15,16610.04,1587.3,2547.63,20744.97
+114,Hiro Protagonist,VT,15.25,Metallomite,239.0,32.0,4.0,7648.0,956.0,1290.6,9894.6
+115,Jonas Quinn,MD,12.0,Solidified Monogen,277.0,61.0,4.0,16897.0,1108.0,2160.6,20165.6
+116,R2-D2,PR,14.0,Metallomite,261.0,32.0,4.0,8352.0,1044.0,1315.44,10711.44
+117,R2-D2,NH,18.0,Negative Hydrite,97.0,27.45,2.04,2662.65,197.88,514.9,3375.43
+118,William Riker,MO,5.0,Negative Hydrite,171.0,27.45,2.04,4693.95,348.84,252.14,5294.93
+119,Tasha Yar,NH,18.0,Low-density Dynesium,291.0,72.03,5.0,20960.73,1455.0,4034.83,26450.56
+120,Geordi La Forge,MI,5.47,Albedonite,55.0,70.0,7.0,3850.0,385.0,211.75,4446.75
+121,Jean-Luc Picard,GU,23.2,Non-refractive Nonite,361.0,41.0,4.14,14801.0,1494.54,3747.97,20043.51

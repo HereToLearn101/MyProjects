@@ -1,0 +1,20 @@
+66,Anakin Skywalker,VT,15.25,Dynamic Resonance Buffer,227.0,40.0,4.3,9080.0,976.1,1508.42,11564.52
+67,Jango Fett,PR,14.0,Non-refractive Nonite,163.0,41.0,4.14,6683.0,674.82,1030.09,8387.91
+68,Quark,GU,23.2,Modular Transition Modulator,194.0,46.0,4.26,8924.0,826.44,2242.6,11993.04
+69,Rae Sloane,AS,8.0,Primary Flux Matrix,205.0,2.0,2.99,410.0,612.95,81.84,1104.79
+70,Neelix,PR,14.0,Vanadogen,190.0,59.0,1.33,11210.0,252.7,1604.78,13067.48
+71,Q,HI,6.0,Phlosoium,196.0,82.1,6.0,16091.6,1176.0,1036.06,18303.66
+72,Geordi La Forge,PR,14.0,Flammable Leptcite,208.0,45.65,5.88,9495.2,1223.04,1500.55,12218.79
+73,Darth Maul,MD,12.0,Vanadogen,91.0,59.0,1.33,5369.0,121.03,658.8,6148.83
+74,William Riker,MT,21.0,Primary Flux Matrix,200.0,2.0,2.99,400.0,598.0,209.58,1207.58
+75,Miles O'Brien,PW,10.85,Destresium,183.0,66.0,5.0,12078.0,915.0,1429.23,14422.23
+76,Darth Vader,PW,10.85,Nonus,218.0,14.11,7.29,3075.98,1589.22,513.17,5178.37
+77,Anakin Skywalker,MO,5.0,Phlosoium,61.0,82.1,6.0,5008.1,366.0,268.7,5642.8
+78,Jack O'Neill,NH,18.0,Albedonite,90.0,70.0,7.0,6300.0,630.0,1247.4,8177.4
+79,Qui-Gon Jinn,MD,12.0,Argesium,140.0,89.0,4.37,12460.0,611.8,1568.62,14640.42
+80,Lando Calrissian,IN,23.0,Destresium,174.0,66.0,5.0,11484.0,870.0,2841.42,15195.42
+81,B'Elanna Torres,PW,10.85,Dynamic Resonance Buffer,370.0,40.0,4.3,14800.0,1591.0,1803.01,18194.01
+82,K-9,VT,15.25,Modular Inertial Replication Scanner,100.0,33.0,3.1,3300.0,310.0,541.5,4151.5
+83,Data,MD,12.0,Positive Hermin,200.0,62.53,3.5,12506.0,700.0,1584.72,14790.72
+84,Data,MO,5.0,Phlosoium,205.0,82.1,6.0,16830.5,1230.0,903.02,18963.52
+85,Luke Skywalker,AS,8.0,Metallomite,204.0,32.0,4.0,6528.0,816.0,587.52,7931.52

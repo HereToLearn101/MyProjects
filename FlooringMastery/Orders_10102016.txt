@@ -1,0 +1,40 @@
+122,Tuvok,AS,8.0,Phlosoium,29.0,82.1,6.0,2380.9,174.0,204.39,2759.29
+123,Lando Calrissian,PW,10.85,Dynamic Resonance Buffer,258.0,40.0,4.3,10320.0,1109.4,1257.23,12686.63
+124,Luke Skywalker,VT,15.25,Modular Transition Modulator,166.0,46.0,4.26,7636.0,707.16,1251.47,9594.63
+125,Hiro Protagonist,PR,14.0,Primary Flux Matrix,107.0,2.0,2.99,214.0,319.93,74.75,608.68
+126,Sarah Jane Smith,GU,23.2,Flammable Leptcite,167.0,45.65,5.88,7623.55,981.96,1979.27,10584.78
+127,Teal'c,NH,18.0,Destresium,243.0,66.0,5.0,16038.0,1215.0,3105.54,20358.54
+128,K-9,PW,10.85,Dynamic Resonance Buffer,290.0,40.0,4.3,11600.0,1247.0,1413.17,14260.17
+129,Q,MO,5.0,Positive Hermin,173.0,62.53,3.5,10817.69,605.5,571.16,11994.35
+130,Leonard McCoy,PW,10.85,Modular Transition Modulator,192.0,46.0,4.26,8832.0,817.92,1061.49,10711.41
+131,BB-8,VI,15.74,Non-refractive Nonite,283.0,41.0,4.14,11603.0,1171.62,2043.94,14818.56
+132,BB-8,PW,10.85,Argesium,112.0,89.0,4.37,9968.0,489.44,1150.32,11607.76
+133,Darth Maul,AS,8.0,Quantum Replication System,338.0,14.0,3.35,4732.0,1132.3,469.14,6333.44
+134,Miles O'Brien,PR,14.0,Opaque Osmesium,121.0,74.82,7.15,9053.22,865.15,1388.57,11306.94
+135,Donna Noble,MD,12.0,Positive Phorus,353.0,5.64,5.0,1990.92,1765.0,450.71,4206.63
+136,Rae Sloane,PW,10.85,Low-density Dynesium,178.0,72.03,5.0,12821.34,890.0,1508.25,15219.59
+137,Lando Calrissian,IN,23.0,Positive Hermin,251.0,62.53,3.5,15695.03,878.5,3811.91,20385.44
+138,Wesley Crusher,PW,10.85,Non-flammable Lunaril,134.0,79.96,8.0,10714.64,1072.0,1296.53,13083.17
+139,R2-D2,VI,15.74,Exotic Halosium,115.0,81.0,7.0,9315.0,805.0,1619.2,11739.2
+140,Hiro Protagonist,NH,18.0,Nonus,273.0,14.11,7.29,3852.03,1990.17,1051.6,6893.8
+141,Jabba the Hutt,MD,12.0,Argesium,49.0,89.0,4.37,4361.0,214.13,549.02,5124.15
+142,Rory Williams,AS,8.0,Low-density Dynesium,58.0,72.03,5.0,4177.74,290.0,357.42,4825.16
+143,Mazer Rackham,PR,14.0,Lithite,142.0,5.76,2.76,817.92,391.92,169.38,1379.22
+144,Qui-Gon Jinn,NH,18.0,Quantum Replication System,222.0,14.0,3.35,3108.0,743.7,693.31,4545.01
+145,Senator Palpatine,MN,0.0,Flammable Leptcite,116.0,45.65,5.88,5295.4,682.08,0.0,5977.48
+146,Art3mis,HI,6.0,Lithite,90.0,5.76,2.76,518.4,248.4,46.01,812.81
+147,Samantha Carter,GU,23.2,Modular Transition Modulator,164.0,46.0,4.26,7544.0,698.64,1895.81,10138.45
+148,Odo,VI,15.74,Non-refractive Nonite,62.0,41.0,4.14,2542.0,256.68,447.79,3246.47
+149,Jonas Quinn,MD,12.0,Opaque Osmesium,165.0,74.82,7.15,12345.3,1179.75,1623.01,15148.06
+150,Martha Jones,MO,5.0,Exotic Halosium,224.0,81.0,7.0,18144.0,1568.0,985.6,20697.6
+151,Darth Sidious,HI,6.0,Primary Flux Matrix,279.0,2.0,2.99,558.0,834.21,83.53,1475.74
+152,Samantha Carter,VT,15.25,Albedonite,318.0,70.0,7.0,22260.0,2226.0,3672.9,28158.9
+153,Miles O'Brien,MD,12.0,Negative Hydrite,236.0,27.45,2.04,6478.2,481.44,835.16,7794.8
+154,Donna Noble,MI,5.47,Modular Transition Modulator,162.0,46.0,4.26,7452.0,690.12,407.11,8549.23
+155,Tasha Yar,NH,18.0,Bioneural Degeneration Sensor,234.0,44.0,0.0,10296.0,0.0,1853.28,12149.28
+156,Donna Noble,MI,5.47,Flammable Leptcite,331.0,45.65,5.88,15110.15,1946.28,852.82,17909.25
+157,Martha Jones,MD,12.0,Phlosoium,82.0,82.1,6.0,6732.2,492.0,866.9,8091.1
+158,K-9,MO,5.0,Albedonite,265.0,70.0,7.0,18550.0,1855.0,1020.25,21425.25
+159,Odo,NH,18.0,Lithite,233.0,5.76,2.76,1342.08,643.08,357.33,2342.49
+160,Hiro Protagonist,MO,5.0,Non-refractive Nonite,237.0,41.0,4.14,9717.0,981.18,534.91,11233.09
+161,Wade Watts,AS,8.0,Primary Flux Matrix,105.0,2.0,2.99,210.0,313.95,41.92,565.87
