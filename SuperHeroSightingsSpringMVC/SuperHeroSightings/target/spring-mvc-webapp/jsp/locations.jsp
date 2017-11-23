@@ -87,7 +87,7 @@
                 <div>
                     Locations
                     <div>
-                        <a href="">
+                        <a href="${pageContext.request.contextPath}/displayCreateLocationPage">
                             <button type="button" class="btn">New Location</button>
                         </a>
                     </div>
@@ -116,17 +116,13 @@
                                 </div>
                                 <div class="col-md-offset-4"></div>
                                 <div class="col-md-1">
-                                    <a href="${pageContext.request.contextPath}/displayEditLocationPage?locationId=${currentLocation.id}">
-                                        <button class="addEditDeleteButton">
-                                            <img src="${pageContext.request.contextPath}/img/icons8-Edit-26.png">
-                                        </button>
+                                    <a href="${pageContext.request.contextPath}/displayEditLocationPage?id=${currentLocation.id}">
+                                        <button class="addEditDeleteButton glyphicon glyphicon-edit"></button>
                                     </a>
                                 </div>
                                 <div class="col-md-1">
-                                    <a href="${pageContext.request.contextPath}/deleteLocation?locationId=${currentLocation.id}">
-                                        <button class="addEditDeleteButton">
-                                            <img src="${pageContext.request.contextPath}/img/icons8-Minus-26.png">
-                                        </button>
+                                    <a href="${pageContext.request.contextPath}/deleteLocation?id=${currentLocation.id}">
+                                        <button class="addEditDeleteButton glyphicon glyphicon-remove"></button>
                                     </a>
                                 </div>
                                 <div class="col-md-offset-2"></div>

@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Index Page</title>
+        <title>Home Page</title>
         <!-- Bootstrap core CSS -->
         <link href="${pageContext.request.contextPath}/css/bootstrap.min.css" rel="stylesheet">
         <link href="${pageContext.request.contextPath}/css/myNavigation.css" rel="stylesheet">
@@ -118,11 +118,7 @@
                     </c:forEach>
                 </div>
             </div>
-
-
         </div>
-
-
         <div class="footer">
             <div class="col-md-12 nav-div" style="padding: 0;">
                 <div class="col-md-offset-4 col-md-5">

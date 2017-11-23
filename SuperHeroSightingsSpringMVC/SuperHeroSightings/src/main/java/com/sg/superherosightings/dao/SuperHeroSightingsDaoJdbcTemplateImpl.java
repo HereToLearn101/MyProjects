@@ -50,10 +50,25 @@ public class SuperHeroSightingsDaoJdbcTemplateImpl implements SuperHeroSightings
         location.setId(locationId);
     }
 
+    private static final String SQL_GET_SIGHTING_LOCATION_ID
+            = "SELECT * FROM Sightings WHERE location_id = ?";
+    private static final String SQL_GET_ORGANIZATION_LOCATION_ID
+            = "SELECT * FROM Organizations WHERE location_id = ?";
     private static final String SQL_DELETE_LOCATION
             = "DELETE FROM Locations WHERE location_id = ?";
     @Override
     public void deleteLocation(int locationId) {
+        List<Sighting> sightings = jdbcTemplate.query(SQL_GET_SIGHTING_LOCATION_ID, new SightingMapper(), locationId);
+        List<Organization> orgs = jdbcTemplate.query(SQL_GET_ORGANIZATION_LOCATION_ID, new OrganizationMapper(), locationId);
+        
+        for (Sighting sighting : sightings) {
+            this.deleteSighting(sighting.getId());
+        }
+        
+        for (Organization org : orgs) {
+            this.deleteOrganization(org.getId());
+        }
+        
         jdbcTemplate.update(SQL_DELETE_LOCATION, locationId);
     }
 
@@ -308,16 +323,26 @@ public class SuperHeroSightingsDaoJdbcTemplateImpl implements SuperHeroSightings
         insertHVPowers(hV);
     }
     
-    private static final String SQL_DELETE_HVPOWERS
+    private static final String SQL_DELETE_HVPOWERS_HV_ID
             = "DELETE FROM HVPowers WHERE hv_id = ?";
+    private static final String SQL_DELETE_HVSIGHTINGS_HV_ID
+            = "DELETE FROM HVSightings WHERE hv_id = ?";
+    private static final String SQL_DELETE_HVORGANIZATIONS_HV_ID
+            = "DELETE FROM HVOrganizations WHERE hv_id = ?";
     private static final String SQL_DELETE_HEROVILLAIN
             = "DELETE FROM HeroesVillains WHERE hv_id = ?";
     @Override
     public void deleteHeroVillain(int id) {
-        // delete HVPowers relationship for this book
-        jdbcTemplate.update(SQL_DELETE_HVPOWERS, id);
+        // delete HVPowers relationship for HeroVillain
+        jdbcTemplate.update(SQL_DELETE_HVPOWERS_HV_ID, id);
         
-        // delete Power
+        // delete HVSightings relationship for HeroVillain
+        jdbcTemplate.update(SQL_DELETE_HVSIGHTINGS_HV_ID, id);
+        
+        // delete HVOrganizations relationship for HeroVillain
+        jdbcTemplate.update(SQL_DELETE_HVORGANIZATIONS_HV_ID, id);
+        
+        // delete HV
         jdbcTemplate.update(SQL_DELETE_HEROVILLAIN, id);
     }
     
@@ -333,7 +358,7 @@ public class SuperHeroSightingsDaoJdbcTemplateImpl implements SuperHeroSightings
                 hV.isIsVillain(),
                 hV.getId());
         
-        jdbcTemplate.update(SQL_DELETE_HVPOWERS, hV.getId());
+        jdbcTemplate.update(SQL_DELETE_HVPOWERS_HV_ID, hV.getId());
         insertHVPowers(hV);
     }
     
@@ -431,13 +456,13 @@ public class SuperHeroSightingsDaoJdbcTemplateImpl implements SuperHeroSightings
         insertHVOrganization(org);
     }
     
-    private static final String SQL_DELETE_HVORGANIZATIONS
+    private static final String SQL_DELETE_HVORGANIZATIONS_ORG_ID
             = "DELETE FROM HVOrganizations WHERE org_id = ?";
     private static final String SQL_DELETE_ORGANIZATION
             = "DELETE FROM Organizations WHERE org_id = ?";
     @Override
     public void deleteOrganization(int orgId) {
-        jdbcTemplate.update(SQL_DELETE_HVORGANIZATIONS, orgId);
+        jdbcTemplate.update(SQL_DELETE_HVORGANIZATIONS_ORG_ID, orgId);
         jdbcTemplate.update(SQL_DELETE_ORGANIZATION, orgId);
     }
    
@@ -455,7 +480,7 @@ public class SuperHeroSightingsDaoJdbcTemplateImpl implements SuperHeroSightings
                 org.getLocation().getId(),
                 org.getId());
         
-        jdbcTemplate.update(SQL_DELETE_HVORGANIZATIONS, org.getId());
+        jdbcTemplate.update(SQL_DELETE_HVORGANIZATIONS_ORG_ID, org.getId());
         insertHVOrganization(org);
     }
     

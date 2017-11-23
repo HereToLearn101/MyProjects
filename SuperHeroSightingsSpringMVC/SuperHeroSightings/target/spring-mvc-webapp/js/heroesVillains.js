@@ -142,6 +142,29 @@ function displayOrganizationDetails(orgId) {
     });
 }
 
+function addHvToOrg(hvId) {
+    $('#add-hv' + hvId).hide();
+    $('#remove-hv' + hvId).show();
+
+    var checkMark = '<span id="check-mark' + hvId + '" ';
+    checkMark += 'class="glyphicon glyphicon-ok" style="color: green;">';
+    checkMark += '</span>';
+
+    var inputHv = '<input type="hidden" id="chosen-hv' + hvId + '" name="hv' + hvId + '" ';
+    inputHv += 'value="' + hvId + '">';
+
+    $('#check-mark-spot' + hvId).append(checkMark);
+    $('#hv-placement').append(inputHv);
+}
+
+function removeHvToOrg(hvId) {
+    $('#remove-hv' + hvId).hide();
+    $('#add-hv' + hvId).show();
+
+    $('#check-mark' + hvId).remove();
+    $('#chosen-hv' + hvId).remove();
+}
+
 function clearOrgDetails() {
     $('#name-div').empty();
     $('#descrip-div').empty();

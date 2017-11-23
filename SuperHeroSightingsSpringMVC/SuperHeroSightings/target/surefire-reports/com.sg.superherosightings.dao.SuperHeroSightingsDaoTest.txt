@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.sg.superherosightings.dao.SuperHeroSightingsDaoTest
 -------------------------------------------------------------------------------
-Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.244 sec
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.536 sec

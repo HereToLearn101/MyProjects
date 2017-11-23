@@ -125,16 +125,12 @@
                                     </div>
                                 <div class="col-md-1">
                                     <a href="${pageContext.request.contextPath}/displayEditSightingPage?sightingId=${currentSighting.id}">
-                                        <button class="addEditDeleteButton">
-                                            <img src="${pageContext.request.contextPath}/img/icons8-Edit-26.png">
-                                        </button>
+                                        <button class="addEditDeleteButton glyphicon glyphicon-edit"></button>
                                     </a>
                                 </div>
                                 <div class="col-md-1">
                                     <a href="${pageContext.request.contextPath}/deleteSighting?sightingId=${currentSighting.id}">
-                                        <button class="addEditDeleteButton">
-                                            <img src="${pageContext.request.contextPath}/img/icons8-Minus-26.png">
-                                        </button>
+                                        <button class="addEditDeleteButton glyphicon glyphicon-remove"></button>
                                     </a>
                                 </div>
                                 <div class="col-md-2"></div>

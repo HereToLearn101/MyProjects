@@ -77,8 +77,16 @@
                     <label for="status-select" class="col-md-3 control-label">Status: </label>
                     <div class="col-md-9">
                         <select id="status-select" name="heroOrVillain" class="form-control">
-                            <option value="Hero">Hero</option>
-                            <option value="Villain" selected="selected">Villain</option>
+                            <c:choose>
+                                <c:when test="${hv.isVillain == true}">
+                                    <option value="Hero">Hero</option>
+                                    <option value="Villain" selected="selected">Villain</option>
+                                </c:when>
+                                <c:otherwise>
+                                    <option value="Hero" selected="selected">Hero</option>
+                                    <option value="Villain">Villain</option>
+                                </c:otherwise>
+                            </c:choose>
                         </select>
                     </div>
                 </div>
@@ -90,6 +98,9 @@
                 <div class="form-group">
                     <div id="createHVButton" class="col-md-offset-6 col-md-6" style="margin-left: 315px;">
                         <input type="submit" class="btn" value="Edit HeroVillain" />
+                        <a href="${pageContext.request.contextPath}/displayHeroesVillainsPage" style="color: black;">
+                            <button type="button" class="btn">Back</button>
+                        </a>
                     </div>
                 </div>
             </form>
@@ -124,7 +135,7 @@
                                             <img src="${pageContext.request.contextPath}/img/icons8-Plus-26.png">                           
                                         </button>
                                         <button id="remove-power${currentPower.id}" class="addEditDeleteButton" onclick="removePowerFromHero(${currentPower.id})">
-                                            <img src="${pageContext.request.contextPath}/img/icons8-Plus-26.png">
+                                            <img src="${pageContext.request.contextPath}/img/icons8-Minus-26.png">
                                         </button>
                                         <c:set var="skip" value="true"/>
                                     </c:when>
@@ -153,19 +164,19 @@
                     <nav class="navbar navbar-default mynavbar" style="margin: 0;">
                         <ul class="nav navbar-nav">
                             <li>
-                                <a href="${pageContext.request.contextPath}/displayHeroesVillainsPage" class="navFont">HeroesVillains</a>
+                                <a href="${pageContext.request.contextPath}/displayHeroesVillainsPage" class="navFont" style="color: white">HeroesVillains</a>
                             </li>
                             <li>
-                                <a href="${pageContext.request.contextPath}/displayLocationsPage" class="navFont">Locations</a>
+                                <a href="${pageContext.request.contextPath}/displayLocationsPage" class="navFont" style="color: white">Locations</a>
                             </li>
                             <li>
-                                <a href="${pageContext.request.contextPath}/home"><span size="10" class="glyphicon glyphicon-home"></a>
+                                <a href="${pageContext.request.contextPath}/home"><span size="10" class="glyphicon glyphicon-home" style="color: white"></a>
                             </li>
                             <li>
-                                <a href="${pageContext.request.contextPath}/displayOrganizationsPage" class="navFont">Organizations</a>
+                                <a href="${pageContext.request.contextPath}/displayOrganizationsPage" class="navFont" style="color: white">Organizations</a>
                             </li>
                             <li>
-                                <a href="${pageContext.request.contextPath}/displaySightingsPage" class="navFont">Sightings</a>
+                                <a href="${pageContext.request.contextPath}/displaySightingsPage" class="navFont" style="color: white">Sightings</a>
                             </li>
                         </ul>
                     </nav>

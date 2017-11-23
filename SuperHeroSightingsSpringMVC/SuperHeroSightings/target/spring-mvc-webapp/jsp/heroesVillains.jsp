@@ -34,7 +34,7 @@
 
             .addEditDeleteButton {
                 background-color: Transparent;
-                background-repeat:no-repeat;
+                /*background-repeat:no-repeat;*/
                 border: none;
                 cursor:pointer;
                 overflow: hidden;
@@ -126,16 +126,12 @@
                                 </div>
                                 <div class="col-md-1">
                                     <a href="${pageContext.request.contextPath}/displayEditHVPage?hvId=${currentHV.id}">
-                                        <button class="addEditDeleteButton">
-                                            <img src="${pageContext.request.contextPath}/img/icons8-Edit-26.png">
-                                        </button>
+                                        <button class="addEditDeleteButton glyphicon glyphicon-edit"></button>
                                     </a>
                                 </div>
                                 <div class="col-md-1">
                                     <a href="${pageContext.request.contextPath}/deleteHV?hvId=${currentHV.id}">
-                                        <button class="addEditDeleteButton">
-                                            <img src="${pageContext.request.contextPath}/img/icons8-Minus-26.png">
-                                        </button>
+                                        <button class="addEditDeleteButton glyphicon glyphicon-remove"></button>
                                     </a>
                                 </div>
                                 <div class="col-md-offset-2"></div>

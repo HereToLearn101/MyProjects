@@ -92,7 +92,7 @@
                 <div>
                     Organizations
                     <div>
-                        <a href="">
+                        <a href="${pageContext.request.contextPath}/displayCreateOrg">
                             <button type="button" class="btn">New Organization</button>
                         </a>
                     </div>
@@ -122,16 +122,12 @@
                                 <div class="col-md-offset-4"></div>
                                 <div class="col-md-1">
                                     <a href="${pageContext.request.contextPath}/displayEditOrganizationPage?orgId=${currentOrg.id}">
-                                        <button class="addEditDeleteButton">
-                                            <img src="${pageContext.request.contextPath}/img/icons8-Edit-26.png">
-                                        </button>
+                                        <button class="addEditDeleteButton glyphicon glyphicon-edit"></button>
                                     </a>
                                 </div>
                                 <div class="col-md-1">
                                     <a href="${pageContext.request.contextPath}/deleteOrganization?orgId=${currentOrg.id}">
-                                        <button class="addEditDeleteButton">
-                                            <img src="${pageContext.request.contextPath}/img/icons8-Minus-26.png">
-                                        </button>
+                                        <button class="addEditDeleteButton glyphicon glyphicon-remove"></button>
                                     </a>
                                 </div>
                                 <div class="col-md-offset-2"></div>
